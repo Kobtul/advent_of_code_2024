@@ -10,6 +10,7 @@ seq = text_sp[1]
 
 # this solution for every sequence it creates the dict from sequence where key is sequence number and value is position
 # Afterwards it checks every rule, it gets position from dict and check if the rule holds
+# because rulez form Partially ordered set, so switching elements in list according to rulez is finite(converging)
 
 rulez_l = [tuple(map(int, line.split("|"))) for line in rulez.strip().split("\n")]
 
